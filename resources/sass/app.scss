@@ -1,0 +1,46 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-weight: 400;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+#form-checkout {
+    margin: 0 auto;
+}
+
+.row-credito {
+    display: none;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.box-credito {
+    display: none;
+}
+.box-credito.active {
+    display: flex;
+}
+#expirationDate,
+#securityCode,
+#cardNumber {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    height: 40px;
+    border-radius: 6px;
+    padding: 0.375rem 0.75rem;
+
+}
+.box-card-number {
+    position: relative;
+}
